@@ -1,0 +1,48 @@
+/* Text */
+p {
+  color: darkgrey;
+}
+
+.post-title a {
+  font-family: "Anton", sans-serif;
+  color: rgb(155, 114, 114);
+  font-size: 20px;
+}
+
+.blog-container {
+  margin: 5vh 10vw;
+}
+.post-content {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.site-content {
+  display: grid;
+  grid-template-columns: 80% 30%;
+}
+
+.post-img,
+.post-title {
+  position: relative;
+}
+
+/* Images */
+
+.post-img > div {
+  overflow: hidden;
+}
+.post-img img {
+  margin: 0.5rem;
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+.post-img img:hover {
+  transform: scale(1.1);
+}
+
+
+
+hr {
+  margin-bottom: 10vh;
+  width: 65vw;
+}

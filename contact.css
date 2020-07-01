@@ -1,0 +1,75 @@
+* {
+  font-family: "Raleway";
+}
+
+.contact {
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Location */
+
+#location {
+  color: #888;
+
+  padding: 80px 0;
+  text-align: center;
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+#location h1 {
+  font-size: 30px;
+  color: #888;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/* Contact */
+.contact-inner {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.contact-inner h1 {
+  font-size: 30px;
+  color: #888;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.name,
+.email,
+.messege {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #888;
+  padding: 10px 6px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.name {
+  float: left;
+  width: 270px;
+}
+
+.email {
+  float: right;
+  width: 270px;
+}
+
+.messege {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .name,
+  .email {
+    width: 100%;
+  }
+}
